@@ -162,7 +162,7 @@ function configureMapEmbed() {
   localStorage.removeItem(legacyProviderKey);
   localStorage.removeItem(providerStorageKey);
 
-  const mapQuery = "Raymond%20James%20Stadium%2C%20Tampa%2C%20Florida";
+  const mapQuery = "Soldier%20Field%2C%20Chicago%2C%20Illinois";
   const appleMapUrl = `https://maps.apple.com/?q=${mapQuery}&z=14`;
   const googleMapUrl = `https://www.google.com/maps?q=${mapQuery}&z=14&output=embed`;
   const googleFallbackUrl = `https://maps.google.com/maps?q=${mapQuery}&z=14&output=embed`;
